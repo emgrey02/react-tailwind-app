@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Shadows Into Light Two";
+    font-weight: 400;
+    src: url(../fonts/ShadowsIntoLightTwo-Regular.woff) format("woff");
+  }
+  h1 {
+    @apply font-header;
+    @apply text-8xl;
+  }
+  h2 {
+    @apply font-header;
+    @apply text-5xl;
+  }
+}
