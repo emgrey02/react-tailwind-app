@@ -4,22 +4,22 @@ import Footer from "../components/footer";
 
 const Layout = ({ pageTitle, title, children }) => {
   return (
-    <div class="font-mono">
+    <div class="font-mono min-h-full">
       <title>{pageTitle}</title>
       <nav class="bg-purple-400 mx-auto shadow-lg border-b-2 border-gray-600">
         <ul class="flex justify-center md:justify-end space-x-8 p-4">
           <li>
-            <Link to="/" class="hover:text-white">
+            <Link to="/" class="hover:text-white hover:underline">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/about" class="hover:text-white">
+            <Link to="/about" class="hover:text-white hover:underline">
               About
             </Link>
           </li>
           <li>
-            <Link to="/projects" class="hover:text-white">
+            <Link to="/projects" class="hover:text-white hover:underline">
               Projects
             </Link>
           </li>
