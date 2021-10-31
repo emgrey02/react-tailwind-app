@@ -1,16 +1,26 @@
 import * as React from "react";
 import { Link } from "gatsby";
+
 const Layout = ({ pageTitle, children }) => {
   return (
-    <div class="font-serif m-8 md:mx-16 lg:mx-24">
+    <div class="font-serif m-8">
       <title>{pageTitle}</title>
-      <nav class="bg-purple-400 rounded-md">
+      <nav class="bg-purple-400 rounded-md mx-auto">
         <ul class="flex justify-end space-x-8 p-4">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" class="hover:text-white">
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about" class="hover:text-white">
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="/projects" class="hover:text-white">
+              Projects
+            </Link>
           </li>
         </ul>
       </nav>
