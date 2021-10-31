@@ -8,11 +8,14 @@
     font-weight: 400;
     src: url(../fonts/ShadowsIntoLightTwo-Regular.woff) format("woff");
   }
+  html {
+    @apply font-mono;
+  }
   h1 {
     @apply font-header;
-    @apply text-8xl;
+    @apply text-7xl;
   }
   h2 {
-    @apply text-4xl;
+    @apply text-3xl;
   }
 }
