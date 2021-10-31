@@ -10,7 +10,7 @@ const ProjectsPage = () => {
   return (
     <main>
       <Layout pageTitle="Projects" title="Projects"></Layout>
-      <div class="md:grid md:grid-cols-2 lg:grid-cols-3 lg:mx-20">
+      <div class="md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
         <Project
           title="Tic Tac Toe"
           src={ticTacToe}

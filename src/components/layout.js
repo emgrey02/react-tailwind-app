@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Link } from "gatsby";
+import Footer from "../components/footer";
 
 const Layout = ({ pageTitle, title, children }) => {
   return (
@@ -30,6 +31,7 @@ const Layout = ({ pageTitle, title, children }) => {
         </h1>
         {children}
       </main>
+      <Footer></Footer>
     </div>
   );
 };
