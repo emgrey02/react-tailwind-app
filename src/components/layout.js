@@ -23,6 +23,11 @@ const Layout = ({ pageTitle, title, children }) => {
               Projects
             </Link>
           </li>
+          <li>
+            <Link to="/contact" class="hover:text-white hover:underline">
+              Contact
+            </Link>
+          </li>
         </ul>
       </nav>
       <main class="mt-8 m-2 md:m-4 md:mt-8 lg:m-8">
