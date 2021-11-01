@@ -10,6 +10,12 @@ const ProjectsPage = () => {
   return (
     <main>
       <Layout pageTitle="Projects" title="Projects">
+        <p class="mx-8">
+          Here are some projects I've made as a beginner web developer. For each
+          one you can see the code I wrote to create it and a live preview in a
+          new tab. These are all made with vanilla JavaScript, HTML, and CSS.
+          Hope you enjoy!
+        </p>
         <div class="md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           <Project
             title="Tic Tac Toe"

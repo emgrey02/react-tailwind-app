@@ -6,7 +6,7 @@ const Footer = (props) => {
   return (
     <footer class="bottom-0 inset-x-0 bg-purple-400 border-t-2 border-gray-600 text-center ">
       <div class="h-40 flex flex-col justify-around">
-        <h3>follow me</h3>
+        <p>follow me</p>
         <ul class="flex flex-row justify-around md:justify-center md:space-x-40">
           <li>
             <p>on twitter</p>
@@ -33,7 +33,7 @@ const Footer = (props) => {
             </div>
           </li>
         </ul>
-        <p>&copy; copyright 2021 Emma Grey</p>
+        <p>&copy; 2021 Emma Grey</p>
       </div>
     </footer>
   );
